@@ -1,37 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Sometype+Mono:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- favicon -->
-
     <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
@@ -53,75 +38,50 @@
     <title>Gobong Halifax</title>
   </head>
   <body>
-    <nav class="header">
-      <div class="logo-wrap">
-        <img class="logo" src="/img/logo/logo.png">
-        <img class="logo" src="/img/logo/logo-name.png">
-      </div>
-      <div class="nav-bar"> 
-        <div class="nav-bar__col"><a href="./index.html">About</a></div>
-        <div class="nav-bar__col"><a href="./menu.html">Menu</a></div>
-        <div class="nav-bar__col">Order Now</div>
-        <div class="nav-bar__col"><a href="./contact.html">Contact</a></div>
+    <nav class="navbar navbar-inverse header">
+      <div class="container">
+        <div class="navbar-header">
+          <img class="logo" src="/img/logo/logo.png">
+          <img class="logo" src="/img/logo/logo-name.png">
+        </div>
+        <ul class="nav navbar-right">
+          <li class="nav__col active"><a href="./index.html"><span class="glyphicon"></span>About</a></li>
+          <li class="nav__col"><a href="./menu.html"><span class="glyphicon"></span>Menu</a></li>
+          <li class="nav__col"><a href="./contact.html"><span class="glyphicon"></span>Contact</a></li>
+        </ul>
       </div>
     </nav>
-    <section class="about container" id="about">
-      <h2 class="about__heading heading">About</h2>
-      <p class="content">
-        Gobong, a start-up food business, specializes in offering Korean-style
-        street food and Cupbab.<br />
-        Our main focus is to provide customers with delicious food of Good
-        quality, all while maintaining Reasonable prices.<br />
-        Our mission is to ensure customer satisfaction through our menu
-        offerings and commitment to high standards.<br />
-      </p>
+    <div class="background">
+      <h1 class="title">About</h1>
+    </div>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="content">
+          <p>
+            Welcome to Gobongbap, a charming eatery where the vibrant flavors of Korean street food and cupbab come to life! For a quick and satisfying meal, head over to our cupbab station, where delectable rice and various toppings are served in convenient cups, ensuring a delicious and fuss-free dining experience.
+          </p>
+          <p>
+            At our bunsik corner, savor the chewy and spicy delight of spicy rice cake and rappok. Also, there is deep fried dumplings with the choice of pork, beef, and vegetables. Plus, you can add on eff, dumplings, gimmale, cheddar cheese on top of our bunsik.
+          </p>
+          <p>
+            Immerse yourself in the art of gimbap, where skilled chefs craft these delightful rolls with precision and care. Each bite unveils a symphony of textures and tastes, from the tender rice to the fresh vegetables and savory proteins. Our gimbap is a true celebration of Korean culinary craftsmanship.
+          </p>
+          <p>
+            Gobongbap is not just a restaurant; it's a journey into the heart of Korean street food culture. Whether you're craving the nostalgic flavors of bunsik, the convenience of cupbab, or the exquisite taste of gimbap, our restaurant promises an unforgettable gastronomic adventure. Come, experience the soulful delights of Korean cuisine in every bite!
+          </p>
+        </div>
+      </div>
+
     </section>
-    <section class="about container" id="about">
-      <h2 class="about__heading heading">About</h2>
-      <p class="content">
-        Gobong, a start-up food business, specializes in offering Korean-style
-        street food and Cupbab.<br />
-        Our main focus is to provide customers with delicious food of Good
-        quality, all while maintaining Reasonable prices.<br />
-        Our mission is to ensure customer satisfaction through our menu
-        offerings and commitment to high standards.<br />
-      </p>
-    </section>
-    <section class="about container" id="about">
-      <h2 class="about__heading heading">About</h2>
-      <p class="content">
-        Gobong, a start-up food business, specializes in offering Korean-style
-        street food and Cupbab.<br />
-        Our main focus is to provide customers with delicious food of Good
-        quality, all while maintaining Reasonable prices.<br />
-        Our mission is to ensure customer satisfaction through our menu
-        offerings and commitment to high standards.<br />
-      </p>
-    </section>
-    <section class="about container" id="about">
-      <h2 class="about__heading heading">About</h2>
-      <p class="content">
-        Gobong, a start-up food business, specializes in offering Korean-style
-        street food and Cupbab.<br />
-        Our main focus is to provide customers with delicious food of Good
-        quality, all while maintaining Reasonable prices.<br />
-        Our mission is to ensure customer satisfaction through our menu
-        offerings and commitment to high standards.<br />
-      </p>
-    </section>
-    <section class="about container" id="about">
-      <h2 class="about__heading heading">About</h2>
-      <p class="content">
-        Gobong, a start-up food business, specializes in offering Korean-style
-        street food and Cupbab.<br />
-        Our main focus is to provide customers with delicious food of Good
-        quality, all while maintaining Reasonable prices.<br />
-        Our mission is to ensure customer satisfaction through our menu
-        offerings and commitment to high standards.<br />
-      </p>
-    </section>
-    <footer class="footer container">
-      <div>@copy</div>
+    <footer class="footer">
+      <div class="container">
+        <div>@copy</div>
+      </div>
+
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
