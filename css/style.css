@@ -1,6 +1,7 @@
 .html, body {
   margin: 0;
   padding: 0;
+  font-family: "Sometype Mono", monospace;
 }
 
 .html .container, body .container {
@@ -44,11 +45,26 @@
 section {
   background: #FCFCFC;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .footer {
   background: #FCD450;
   padding: 20px 20px;
+  color: #FCFCFC;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .social {
+  width: 25px;
+  -webkit-filter: invert(99%) sepia(94%) saturate(8%) hue-rotate(112deg) brightness(103%) contrast(98%);
+          filter: invert(99%) sepia(94%) saturate(8%) hue-rotate(112deg) brightness(103%) contrast(98%);
 }
 /*# sourceMappingURL=style.css.map */

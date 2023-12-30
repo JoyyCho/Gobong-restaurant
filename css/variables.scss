@@ -6,5 +6,7 @@ $color-white: #FCFCFC;
 $color-grey: #C5C8C9;
 $color-black: #000000;
 
+$filter-white: invert(99%) sepia(94%) saturate(8%) hue-rotate(112deg) brightness(103%) contrast(98%);
+
 $font-bold: 'Rubik Mono One', monospace;
 $font-regular:'Sometype Mono', monospace;

@@ -10,6 +10,7 @@
 }
 
 .menu {
+ 
  .title {
   border: 1px solid $secondary-color;
   color: $color-white;
@@ -25,6 +26,7 @@
  .station {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 50px;
  }
 }
 

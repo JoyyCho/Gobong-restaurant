@@ -10,7 +10,10 @@
 }
 
 .contact {
-
+ font-family: $font-bold;
+h2 {
+ font-family: $font-bold;
+}
 
  &__map {
   margin-right: 20px;;

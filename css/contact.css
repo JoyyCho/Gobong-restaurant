@@ -5,6 +5,14 @@
           filter: grayscale(100%);
 }
 
+.contact {
+  font-family: "Rubik Mono One", monospace;
+}
+
+.contact h2 {
+  font-family: "Rubik Mono One", monospace;
+}
+
 .contact__map {
   margin-right: 20px;
 }
