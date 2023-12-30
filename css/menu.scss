@@ -1,0 +1,36 @@
+// Home
+
+@import 'variables';
+
+
+.background {
+ background: url('../img/background.jpg') no-repeat center;
+ height: 500px;
+ filter: grayscale(100%);
+}
+
+.menu {
+ .title {
+  border: 1px solid $secondary-color;
+  color: $color-white;
+  width: 200px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  // border-radius: 10%;
+  background-color: $secondary-color;
+  margin: 0 auto;
+ }
+
+ .station {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+}
+
+.food {
+ text-align: center;
+ img {
+  width: 300px;
+ }
+}

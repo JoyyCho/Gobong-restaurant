@@ -1,0 +1,33 @@
+.background {
+  background: url("../img/background.jpg") no-repeat center;
+  height: 500px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.menu .title {
+  border: 1px solid #DD9653;
+  color: #FCFCFC;
+  width: 200px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #DD9653;
+  margin: 0 auto;
+}
+
+.menu .station {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.food {
+  text-align: center;
+}
+
+.food img {
+  width: 300px;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -5,65 +5,57 @@
  padding: 0;
 
  .container {
-  max-width: $max-site-width;
+  max-width: 1440px;
  }
-
- .heading {
-  font-family: $font-bold;
-  text-align: center;
- }
-
- .content {
-  font-family: $font-regular;
- }
-}
-
-.section {
- margin: 0;
- padding: 0;
 }
 
 // Header
 .header {
- background-color: $nav-color;
+ background-color: $primary-color;
  font-family: $font-regular;
- display: flex;
- align-items: center;
- padding: 30px 50px;
- position: fixed;
- top: 0;
- width: 100%;
-
- .logo-wrap {
-  display: flex;
- }
-
- .logo {
-  max-width: 150px;
-  max-height: 150px;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(45deg) brightness(104%) contrast(102%);
-  }
-
- .nav-bar {
-  display: flex;
-  font-size: 20px;
-
-  &__col {
-   margin: 20px 20px;
-  }
- 
- }
 }
 
+.logo {
+ width: 100px;
+ // filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(45deg) brightness(104%) contrast(102%);
+ }
+
+.logo-name {
+  width: 300px;
+}
+
+.nav {
+  .active {
+    a {
+      color: $secondary-color;
+      font-weight: 600;
+    }
+  }
+
+  a{
+    color: $color-white;
+    
+    &:hover {
+      color:$secondary-color;
+    }
+    
+  }
+  li:nth-child(1) {
+    margin-right: 20px;
+  }
+
+  li:nth-child(2) {
+    margin-right: 20px;
+  }
+}
+
+section {
+  background: $color-white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 // Footer
 .footer {
- background: $nav-color;
+ background: $primary-color;
  padding: 20px 20px;
-}
-
-
-// About
-.about {
- background-color: $main-color;
- padding: 50px;
 }

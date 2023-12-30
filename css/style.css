@@ -4,61 +4,51 @@
 }
 
 .html .container, body .container {
-  max-width: 1920px;
-}
-
-.html .heading, body .heading {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-}
-
-.html .content, body .content {
-  font-family: "Maven Pro", sans-serif;
-}
-
-.section {
-  margin: 0;
-  padding: 0;
+  max-width: 1440px;
 }
 
 .header {
-  background-color: #F1EAD9;
-  font-family: "Maven Pro", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px 50px;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  background-color: #FCD450;
+  font-family: "Sometype Mono", monospace;
 }
 
-.header .logo {
-  max-width: 150px;
-  max-height: 150px;
+.logo {
+  width: 100px;
 }
 
-.header .nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 20px;
+.logo-name {
+  width: 300px;
 }
 
-.header .nav-bar__col {
-  margin: 20px 20px;
+.nav .active a {
+  color: #DD9653;
+  font-weight: 600;
+}
+
+.nav a {
+  color: #FCFCFC;
+}
+
+.nav a:hover {
+  color: #DD9653;
+}
+
+.nav li:nth-child(1) {
+  margin-right: 20px;
+}
+
+.nav li:nth-child(2) {
+  margin-right: 20px;
+}
+
+section {
+  background: #FCFCFC;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer {
-  background: #F1EAD9;
+  background: #FCD450;
   padding: 20px 20px;
-}
-
-.about {
-  background-color: lightgrey;
-  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */
